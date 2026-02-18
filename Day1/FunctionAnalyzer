@@ -1,0 +1,21 @@
+def analyze_function(func):
+    print("Type of function:", type(func))
+    
+    print("\nFirst 10 items from dir():")
+    print(dir(func)[:10])
+    
+    print("\nHelp on function:")
+    help(func)
+
+def add(a, b):
+    return a + b
+
+def main():
+    print("Testing with user-defined function:\n")
+    analyze_function(add)
+
+    print("\n\nTesting with built-in function str.upper:\n")
+    analyze_function(str.upper)
+
+
+main()

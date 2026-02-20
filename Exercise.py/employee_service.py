@@ -4,7 +4,6 @@ _emps = [
     {'empid': 3231, 'name': 'Rajeev', 'salary': 55000, 'dept': 'ADMIN'},
 ]
 
-
 def accept_and_add_emp():
     global _emps
     try:
